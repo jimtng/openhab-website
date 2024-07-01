@@ -97,11 +97,20 @@ Thanks to Mark Herwege ([@mherwege](https://github.com/mherwege)) for the contri
 
 ### Item Form Enhancements
 
-@jimtng
+Items are one of the core elements in an openHAB system.
+To make viewing and editing them easier and more streamlined, the Item Form has received some minor cosmetic and functional improvements.
+For dimensioned items, it is now easier to set the item's unit directly on the form with a default unit pre-filled.
+Managing item's parent groups should now be easier too.
 
 ### Add-on Store Redesign
 
-@jimtng
+The Add-on Store has been split up into sub-sections on the left navigation tree according to their category.
+The main Add-on Store page now shows the list of all installed add-ons, grouped by category, for a quick overview.
+The search box on the main Add-on Store page allows searching through all add-ons in every category.
+The search box on the sub-category page searches only the selected category.
+
+Browsing through the Add-ons Store and switching through the different sections is now much faster, thanks to cached results.
+This makes browsing and installing add-ons through the UI easier and quicker.
 
 ### Setup Wizard Extensions
 
